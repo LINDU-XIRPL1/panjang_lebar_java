@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Converter</title>
+    <style>
+        .calculator-container{
+            background-color: grey;
+            color: azure;
+            width: 500px;
+            border:30px solid black;
+            padding: 50px;
+            margin: auto;
+        }
+        button{
+            background-color: azure;
+            color: black;
+            border: none;
+            min-height: 30px;
+            min-width: 100px;
+            border-radius: 30px;
+            
+        }
+        button:hover{
+             background-color: green;
+             color: white;
+             cursor: pointer;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>BMI Calculator</h1>
+        <p>Panjang</p>
+        <input class="panjang" type="text">
+        <p>Lebar</p>
+        <input class="lebar" type="text">
+        <button onclick="myFunction()" class="calculate">Calculator</button>
+    </div>
+    <script src="latjava2.js"></script>
+</body>
+</html>
